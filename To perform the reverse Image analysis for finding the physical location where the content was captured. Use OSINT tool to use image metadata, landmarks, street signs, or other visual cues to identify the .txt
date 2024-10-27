@@ -1,0 +1,10 @@
+1) Google Reverse Image Search (images.google.com) # Can help identify visually similar images or landmarks.
+
+
+2) Yandex Images (yandex.com/images) # Often provides more precise visual identification, especially for street views and landmarks.
+
+
+3) ExifTool (exiftool.org)# Extracts image metadata, such as geotags, GPS coordinates, camera type, and timestamp.
+
+
+4) Pic2Map (pic2map.com) # Maps the physical location of images based on GPS metadata.

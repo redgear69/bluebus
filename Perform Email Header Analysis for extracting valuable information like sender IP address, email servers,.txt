@@ -1,0 +1,32 @@
+1) Email Header Analysis
+
+a) MxToolbox (mxtoolbox.com) # Analyzes email headers to extract information such as IP addresses, spam blacklists, and routing.
+
+
+b) Mailheader Analyzer (mailheader.org) # Analyzes headers to identify sender information, routing, and spam status.
+
+2) Email Enumeration
+
+a) theHarvester # Collects email addresses and domain information using search engines and public sources.
+   Installtion : sudo apt install theharvester
+   Usage : theHarvester -d example.com -b all -l 500 -f fake.json
+        -d: Specifies the target domain, e.g., example.com.
+    -b all: Runs the search across all available sources. Some popular sources include:
+            Google (google), Bing (bing), LinkedIn (linkedin), Twitter (twitter), and PGP servers (pgp).
+            Use -b all to search across all sources or specify individual sources separated by commas.
+    -l 500: Sets the limit for the number of results to fetch from each source. Adjust this based on your needs.
+    -f fake.json: Saves the output in a specified file format (JSON in this case), allowing easy viewing in a browser.
+
+
+b) Hunter.io (hunter.io) # Searches for email addresses associated with a domain; useful for identifying valid email addresses within a target organization. { https://hunter.io/email-verifier }
+
+c) Phonebook.cz (phonebook.cz) # Retrieves email addresses and information related to domain contacts from public data sources.
+
+3) Metadata and Sender Analysis
+
+a) ExifTool (exiftool.org) # Analyzes metadata like email client, time stamps, and IPs from attachments or images in emails.
+
+b) IPinfo (ipinfo.io) # Identifies the geographic location and additional data about IP addresses extracted from email headers.
+
+c) Emailrep.io (emailrep.io) # Provides information about the reputation and origin of an email address.
+

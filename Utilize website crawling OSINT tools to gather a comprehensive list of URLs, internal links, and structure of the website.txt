@@ -1,0 +1,10 @@
+1) Scrapy (scrapy.org) # A powerful web crawling framework in Python, used for structured website crawling and data extraction.
+
+
+2) Octoparse (octoparse.com) # A user-friendly crawler with GUI, suited for extracting URLs and internal website structure.
+
+
+3) Link Extractor (scrapingbee.com) # Gathers all internal links on a website, useful for analyzing the website structure.
+
+
+4) SiteBulb (sitebulb.com)# A visual tool for website crawling, generates sitemaps, and analyzes link structures.

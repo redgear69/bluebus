@@ -1,0 +1,13 @@
+1) Wappalyzer (wappalyzer.com)# Browser extension and API that identifies technologies, CMS, frameworks, and libraries used on a website.
+
+
+2) BuiltWith (builtwith.com)# Shows CMS, server software, analytics, and frameworks, helping generate technology profiles for websites.
+
+
+3) Netcraft (netcraft.com) # Provides information on server technologies and website frameworks.
+
+
+4) Whatsweb # WhatWeb is a powerful tool for gathering information about websites, identifying technologies, and conducting reconnaissance on web applications. 
+   Installtion: 
+	
+   Usage: whatweb example.com
